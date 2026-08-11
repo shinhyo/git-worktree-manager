@@ -1,3 +1,15 @@
+## v3.27.0
+
+[compare changes](https://github.com/jackiotyu/git-worktree-manager/compare/v3.26.2...v3.27.0)
+
+### 🚀 Enhancements
+
+- Add commands to remove merged and selected worktrees with UI support ([#64](https://github.com/jackiotyu/git-worktree-manager/pull/64))
+
+### 🩹 Fixes
+
+- Swap detail and description in createQuickPickItem for clarity ([3a39346](https://github.com/jackiotyu/git-worktree-manager/commit/3a39346))
+
 ## v3.26.2
 
 [compare changes](https://github.com/jackiotyu/git-worktree-manager/compare/v3.26.1...v3.26.2)
