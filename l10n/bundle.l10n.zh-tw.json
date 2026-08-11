@@ -155,5 +155,14 @@
     "Running post-create command...": "正在運行 post-create 命令...",
     "Running pre-remove command...": "正在運行 pre-remove 命令...",
     "Pre-remove command was cancelled": "pre-remove 命令已取消",
-    "Pre-remove command failed: {0}": "pre-remove 命令失敗：{0}"
+    "Pre-remove command failed: {0}": "pre-remove 命令失敗：{0}",
+    "Select Git repository to remove merged worktrees from": "請選擇要從中移除已合併 Worktree 的 Git 儲存庫",
+    "Select Git repository to remove worktrees from": "請選擇要從中移除 Worktree 的 Git 儲存庫",
+    "Detached worktree": "已分離的 Worktree",
+    "Merged": "已合併",
+    "Not merged": "未合併",
+    "Select all merged worktrees": "選擇所有已合併的 Worktree",
+    "Select worktrees to remove": "選擇要移除的 Worktree",
+    "Removing selected worktrees from {0}": "正在從 {0} 移除所選 Worktree",
+    "Failed to remove worktree(s)": "移除 Worktree 失敗"
 }

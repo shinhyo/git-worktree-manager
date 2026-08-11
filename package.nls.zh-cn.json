@@ -11,6 +11,8 @@
     "cmd.removeGitFolder": "移除选中的 Git 仓库",
     "cmd.removeMultiGitFolder": "批量移除 Git 仓库",
     "cmd.removeWorktree": "移除 Worktree",
+    "cmd.removeMergedWorktrees": "移除已合并的 Worktree",
+    "cmd.removeWorktrees": "移除多个 Worktree",
     "cmd.removeFavorite": "从收藏夹中移除",
     "cmd.removeMultiFavorite": "批量移除收藏",
     "cmd.addWorktreeFromBranch": "从当前分支创建 Worktree",

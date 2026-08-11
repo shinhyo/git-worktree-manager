@@ -4,6 +4,7 @@ import { switchWorktreeCmd } from '@/core/command/switchWorktreeCmd';
 import { addWorktreeCmd } from '@/core/command/addWorktreeCmd';
 import { repairWorktreeCmd } from '@/core/command/repairWorktreeCmd';
 import { removeWorktreeCmd } from '@/core/command/removeWorktreeCmd';
+import { removeMergedWorktreesCmd, removeWorktreesCmd } from '@/core/command/removeMergedWorktreesCmd';
 import { moveWorktreeCmd } from '@/core/command/moveWorktreeCmd';
 import { lockWorktreeCmd } from '@/core/command/lockWorktreeCmd';
 import { unlockWorktreeCmd } from '@/core/command/unlockWorktreeCmd';
@@ -63,6 +64,8 @@ export function registerCommands(context: vscode.ExtensionContext) {
         registerCommand(Commands.addWorktree, addWorktreeCmd),
         registerCommand(Commands.repairWorktree, repairWorktreeCmd),
         registerCommand(Commands.removeWorktree, removeWorktreeCmd),
+        registerCommand(Commands.removeMergedWorktrees, removeMergedWorktreesCmd),
+        registerCommand(Commands.removeWorktrees, removeWorktreesCmd),
         registerCommand(Commands.moveWorktree, moveWorktreeCmd),
         registerCommand(Commands.lockWorktree, lockWorktreeCmd),
         registerCommand(Commands.unlockWorktree, unlockWorktreeCmd),

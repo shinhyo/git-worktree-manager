@@ -11,6 +11,8 @@
     "cmd.removeGitFolder": "Remove selected Git repository",
     "cmd.removeMultiGitFolder": "Remove Multiple Git Repositories",
     "cmd.removeWorktree": "Remove Worktree",
+    "cmd.removeMergedWorktrees": "Remove merged worktrees",
+    "cmd.removeWorktrees": "Remove worktrees",
     "cmd.removeFavorite": "Remove from Favorites",
     "cmd.removeMultiFavorite": "Remove Multiple Favorites",
     "cmd.addWorktreeFromBranch": "Create a worktree from the current branch",

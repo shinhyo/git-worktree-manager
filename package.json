@@ -96,6 +96,16 @@
         "icon": "$(close)"
       },
       {
+        "command": "git-worktree-manager.removeMergedWorktrees",
+        "title": "%cmd.removeMergedWorktrees%",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "git-worktree-manager.removeWorktrees",
+        "title": "%cmd.removeWorktrees%",
+        "icon": "$(trash)"
+      },
+      {
         "command": "git-worktree-manager.addWorktreeFromBranch",
         "title": "%cmd.addWorktreeFromBranch%",
         "icon": "$(new-folder)"
@@ -493,6 +503,16 @@
           "group": "file-action@1"
         },
         {
+          "command": "git-worktree-manager.removeMergedWorktrees",
+          "when": "viewItem =~ /git-worktree-manager\\.(gitFolderItem|workspaceGitMainFolder)/",
+          "group": "file-action@2"
+        },
+        {
+          "command": "git-worktree-manager.removeWorktrees",
+          "when": "viewItem =~ /git-worktree-manager\\.(gitFolderItem|workspaceGitMainFolder)/",
+          "group": "file-action@2"
+        },
+        {
           "command": "git-worktree-manager.addWorktree",
           "when": "viewItem =~ /git-worktree-manager\\.(workspaceGitMainFolder|gitFolderItem)/",
           "group": "inline@2"
@@ -712,6 +732,12 @@
         {
           "command": "git-worktree-manager.removeWorktree",
           "when": "false"
+        },
+        {
+          "command": "git-worktree-manager.removeMergedWorktrees"
+        },
+        {
+          "command": "git-worktree-manager.removeWorktrees"
         },
         {
           "command": "git-worktree-manager.addWorktreeFromBranch",

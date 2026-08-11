@@ -14,6 +14,8 @@ export enum Commands {
     renameGitFolder = 'git-worktree-manager.renameGitFolder',
     repairWorktree = 'git-worktree-manager.repairWorktree',
     removeWorktree = 'git-worktree-manager.removeWorktree',
+    removeMergedWorktrees = 'git-worktree-manager.removeMergedWorktrees',
+    removeWorktrees = 'git-worktree-manager.removeWorktrees',
     moveWorktree = 'git-worktree-manager.moveWorktree',
     lockWorktree = 'git-worktree-manager.lockWorktree',
     unlockWorktree = 'git-worktree-manager.unlockWorktree',

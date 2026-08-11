@@ -155,5 +155,14 @@
     "Running post-create command...": "post-create コマンドを実行中...",
     "Running pre-remove command...": "pre-remove コマンドを実行中...",
     "Pre-remove command was cancelled": "pre-remove コマンドがキャンセルされました",
-    "Pre-remove command failed: {0}": "pre-remove コマンドが失敗しました：{0}"
+    "Pre-remove command failed: {0}": "pre-remove コマンドが失敗しました：{0}",
+    "Select Git repository to remove merged worktrees from": "マージ済みワークツリーを削除する Git リポジトリを選択してください",
+    "Select Git repository to remove worktrees from": "ワークツリーを削除する Git リポジトリを選択してください",
+    "Detached worktree": "デタッチされたワークツリー",
+    "Merged": "マージ済み",
+    "Not merged": "未マージ",
+    "Select all merged worktrees": "マージ済みワークツリーをすべて選択",
+    "Select worktrees to remove": "削除するワークツリーを選択",
+    "Removing selected worktrees from {0}": "選択したワークツリーを {0} から削除しています",
+    "Failed to remove worktree(s)": "ワークツリーの削除に失敗しました"
 }
