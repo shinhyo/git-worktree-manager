@@ -12,8 +12,8 @@ interface IMergedWorktreePick extends vscode.QuickPickItem {
 
 const createQuickPickItem = (candidate: IMergedWorktreeCandidate): IMergedWorktreePick => ({
     label: candidate.branch || vscode.l10n.t('Detached worktree'),
-    description: candidate.fsPath,
-    detail: candidate.isMerged ? vscode.l10n.t('Merged') : vscode.l10n.t('Not merged'),
+    detail: candidate.fsPath,
+    description: candidate.isMerged ? vscode.l10n.t('Merged') : vscode.l10n.t('Not merged'),
     fsPath: candidate.fsPath,
     branch: candidate.branch,
     isMerged: candidate.isMerged,
