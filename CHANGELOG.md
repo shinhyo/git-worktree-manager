@@ -1,3 +1,15 @@
+## v3.28.0
+
+[compare changes](https://github.com/jackiotyu/git-worktree-manager/compare/v3.27.0...v3.28.0)
+
+### 🚀 Enhancements
+
+- Add treeView.worktreeLabelTemplate to customize worktree item labels ([#65](https://github.com/jackiotyu/git-worktree-manager/pull/65))
+
+### 🏡 Chore
+
+- Update dependencies ([dfab2a0](https://github.com/jackiotyu/git-worktree-manager/commit/dfab2a0))
+
 ## v3.27.0
 
 [compare changes](https://github.com/jackiotyu/git-worktree-manager/compare/v3.26.2...v3.27.0)
